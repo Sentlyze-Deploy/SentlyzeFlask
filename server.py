@@ -22,8 +22,8 @@ def suppress_tf_logs():
 suppress_tf_logs()
 
 # Load the model and tokenizer
-model_path = 'GRU_sentiment_model.h5'
-tokenizer_path = 'tokenizer_turkish.pickle'
+model_path = '/home/site/wwwroot/GRU_sentiment_model.h5'
+tokenizer_path = '/home/site/wwwroot/tokenizer_turkish.pickle'
 model = None
 tokenizer = None
 
